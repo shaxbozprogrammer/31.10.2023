@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Schoolbell&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.navbar {
+  background: #fff;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.container {
+  max-width: 1420px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav {
+  display: flex;
+  gap: 112px;
+  padding-left: 158px;
+  align-items: center;
+}
+.navbar-list-ul {
+  display: flex;
+  gap: 50px;
+}
+.navbar-list-ul a {
+  color: rgba(31, 46, 53, 0.8);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+label {
+  color: rgba(31, 46, 53, 0.8);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+select {
+  border: none;
+  fill: rgba(31, 46, 53, 0.8);
+}
+.navbar-mass {
+  display: flex;
+  gap: 24px;
+}
+.sec1 {
+  display: flex;
+  margin-left: 158px;
+  margin-bottom: 100px;
+}
+.sec1-left h1 {
+  color: #1f2e35;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 133.687%; /* 64.17px */
+  width: 545px;
+  margin-top: 125px;
+}
+.sec1-left h1 a {
+  color: #ee4248;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 133.687%;
+}
+.sec1-left p {
+  color: #30444e;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 144.687%;
+  width: 520px;
+  margin-top: 24px;
+}
+.sec1-left button {
+  display: inline-flex;
+  padding: 12px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: #ee4248;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 144.687%;
+  border: none;
+  margin-top: 24px;
+}
+.sec1-left button:hover {
+  color: black;
+  background-color: aliceblue;
+  transition: 0.5s;
+}
+.sec1-right {
+  margin: 110px 0 0 17px;
+}
+.sec-col {
+  background: #f6f6f6;
+}
+.sec2 {
+  display: flex;
+  margin-left: 158px;
+  gap: 82px;
+  padding-bottom: 63px;
+}
+.sec2-right h1 {
+  width: 454px;
+  color: #1f2e35;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 133.687%; /* 42.78px */
+  margin-top: 57px;
+}
+.sec2-right h1 a {
+  color: #ee4248;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 133.687%;
+}
+.sec2-right p {
+  width: 520px;
+  color: #30444e;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  margin-top: 24px;
+}
+.sec2-right p a {
+  color: #ee4248;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.sec3 h1 {
+  text-align: center;
+  color: #1f2e35;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 133.687%; /* 42.78px */
+  margin-top: 116px;
+}
+.sec3-card {
+  display: flex;
+  margin-left: 158px;
+  gap: 53px;
+  margin-top: 41px;
+  padding-bottom: 23px;
+}
+.card1 h2 {
+  color: #ee4248;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 133.687%;
+  margin-top: 15px;
+}
+.card1 p {
+  width: 319px;
+  color: #30444e;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 15px;
+}
+.card1 button {
+  border-radius: 4px;
+  background: #ee4248;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 144.687%;
+  border: none;
+  margin-top: 15px;
+}
+.card1 button:hover {
+  color: black;
+  background-color: aliceblue;
+  transition: 0.5s;
+}
+.card2 h2 {
+  color: #ee4248;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 133.687%;
+  margin-top: 15px;
+}
+.card2 p {
+  width: 319px;
+  color: #30444e;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 15px;
+}
+.card2 button {
+  border-radius: 4px;
+  background: #ee4248;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 144.687%;
+  border: none;
+  margin-top: 15px;
+}
+.card2 button:hover {
+  color: black;
+  background-color: aliceblue;
+  transition: 0.5s;
+}
+.card3 h2 {
+  color: #ee4248;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 133.687%;
+  margin-top: 15px;
+}
+.card3 p {
+  width: 319px;
+  color: #30444e;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 15px;
+}
+.card3 button {
+  border-radius: 4px;
+  background: #ee4248;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 144.687%;
+  border: none;
+  margin-top: 15px;
+}
+.card3 button:hover {
+  color: black;
+  background-color: aliceblue;
+  transition: 0.5s;
+}
+.foot1 {
+  display: flex;
+  margin-left: 158px;
+  padding-top: 28px;
+  margin-top: 87px;
+  align-items: center;
+  gap: 47px;
+  padding-bottom: 24px;
+}
+.foot-logo h5 {
+  color: #263238;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.foot-logo p {
+  color: #263238;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 149.187%;
+  width: 317px;
+  padding-top: 8px;
+}
+.foot-con h3 {
+  color: #263238;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.foot-con p {
+  color: #263238;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 149.187%;
+  width: 269px;
+  padding-top: 15px;
+  line-height: 35px;
+}
+.foot2 {
+  background-color: #ee4248;
+}
+.foot2 p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  padding: 22px 0;
+}
